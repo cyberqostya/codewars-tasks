@@ -2,6 +2,7 @@
 
 #### [Medium](#mediumtasks)
   + [Преобразователь числа в строку с разделителем тысяч](#codewars1);
+  + [Заменить {field} в строке на значение в объекте](#codewars3);
 #### [Easy](#easytasks)
   + [Наибольшее и наименьшее числа из массива](#codewars2);
 
@@ -18,6 +19,33 @@ function numberToPrice(number, roundingCount = 0) {
    return number.toFixed(roundingCount).replace(/(\d)(?=(?:\d{3})+\.)/g, '$1,');
 }
 ```
+
+***
+### <a name="codewars3"></a>Заменить {field} в строке на значение в объекте
+> _(**?:** выражение) - не войдет в результаты поиска_
+> 
+> _q(**?=** u) соответствует q, за которой следует u, которая не войдет в результат поиска_
+
+```
+// Принимает 
+//   string = "Hello, {name}! I was born in {year}. I'm from {place}."
+//   obj = {
+//     name: "Harry Potter",
+//     year: 1980,
+//     place: "Godric's Hollow"
+//   }
+
+function pseudoTemplateString(string, obj) {
+  return (
+    string.replace(/{\w+}/g, (val) => {
+      return obj[val.match(/\w+/)[0]];
+    })
+  )
+}
+```
+
+
+
 
 ***
 ### <a name="easytasks"></a> Easy
