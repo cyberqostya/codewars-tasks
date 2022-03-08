@@ -6,7 +6,7 @@
 #### [Easy](#easytasks)
   + [Наибольшее и наименьшее числа из массива](#codewars2);
 
-***
+
 # <a name="mediumtasks"></a> Medium
 ***
 ### <a name="codewars1"></a>Преобразователь числа в строку с разделителем тысяч
@@ -44,7 +44,7 @@ function pseudoTemplateString(string, obj) {
 
 
 
-***
+
 # <a name="easytasks"></a> Easy
 ***
 ### <a name="codewars2"></a>Наибольшее и наименьшее числа из массива
