@@ -1,5 +1,6 @@
 # Интересные задачи и их решения на JavaScript на [Codewars](https://www.codewars.com/)
 
+#### [Hard](#hardtasks)
 #### [Medium](#mediumtasks)
   + [Преобразователь числа в строку с разделителем тысяч](#codewars1);
   + [Заменить {field} в строке на значение в объекте](#codewars3);
