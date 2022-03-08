@@ -1,10 +1,12 @@
 ## Интересные задачи и их решения на JavaScript на [Codewars](https://www.codewars.com/)
 
-#### 5 level
+#### [Medium](#mediumtasks)
   + [Преобразователь числа в строку с разделителем тысяч](#codewars1);
-#### 7 level
+#### [Easy](#easytasks)
   + [Наибольшее и наименьшее числа из массива](#codewars2);
 
+***
+### <a name="mediumtasks"></a> Medium
 ***
 ### <a name="codewars1"></a>Преобразователь числа в строку с разделителем тысяч
 > _(**?:** выражение) - не войдет в результаты поиска_
@@ -17,6 +19,8 @@ function numberToPrice(number, roundingCount = 0) {
 }
 ```
 
+***
+### <a name="easytasks"></a> Easy
 ***
 ### <a name="codewars2"></a>Наибольшее и наименьшее числа из массива
 > _В задаче функция принимала строку типа ```'1 2 -4 5'``` и для преобразования использовалась ```string.split(' ').map(Number)```_
