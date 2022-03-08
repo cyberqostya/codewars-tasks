@@ -1,4 +1,4 @@
-## Интересные задачи и их решения на JavaScript на [Codewars](https://www.codewars.com/)
+# Интересные задачи и их решения на JavaScript на [Codewars](https://www.codewars.com/)
 
 #### [Medium](#mediumtasks)
   + [Преобразователь числа в строку с разделителем тысяч](#codewars1);
@@ -7,7 +7,7 @@
   + [Наибольшее и наименьшее числа из массива](#codewars2);
 
 ***
-### <a name="mediumtasks"></a> Medium
+# <a name="mediumtasks"></a> Medium
 ***
 ### <a name="codewars1"></a>Преобразователь числа в строку с разделителем тысяч
 > _(**?:** выражение) - не войдет в результаты поиска_
@@ -45,7 +45,7 @@ function pseudoTemplateString(string, obj) {
 
 
 ***
-### <a name="easytasks"></a> Easy
+# <a name="easytasks"></a> Easy
 ***
 ### <a name="codewars2"></a>Наибольшее и наименьшее числа из массива
 > _В задаче функция принимала строку типа ```'1 2 -4 5'``` и для преобразования использовалась ```string.split(' ').map(Number)```_
