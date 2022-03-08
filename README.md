@@ -19,7 +19,7 @@ function numberToPrice(number, roundingCount = 0) {
 
 ***
 ### <a name="codewars2"></a>Наибольшее и наименьшее числа из массива
-> _В задаче функция принимала строку типа '1 2 -4 5' и для преобразования использовалась ```string.split(' ').map(Number)```_
+> _В задаче функция принимала строку типа ```'1 2 -4 5'``` и для преобразования использовалась ```string.split(' ').map(Number)```_
 
 ```
 function highAndLow(array){
